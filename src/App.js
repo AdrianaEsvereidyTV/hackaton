@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { Button } from 'react-bootstrap';
 
 class App extends Component {
   render() {
-    return (
+    return ( 
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
@@ -19,6 +20,7 @@ class App extends Component {
           >
             Learn React
           </a>
+          <Button>Hola Silv</Button>
         </header>
       </div>
     );
